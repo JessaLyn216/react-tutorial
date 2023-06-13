@@ -1,0 +1,26 @@
+.expense {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 1rem;
+
+    .expense-date {
+        color: grey;
+    }
+
+    .expense-item {
+        font-weight: 500;
+    }
+
+    .expense-amount {
+        display: block;
+        border-radius: 50px;
+        background-color: rgba(221, 227, 216, 0.862);
+        padding: 6px 10px;
+    }
+}
